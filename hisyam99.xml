@@ -8,5 +8,6 @@
 		fetch="https://gitlab.com/wulan17"
 		 />
 	<project path="device/xiaomi/certus" name="android_device_xiaomi_certus" remote="wulan17" revision="staging/10-sepolicy" />
+	<project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="wulan17" revision="staging/10" />
 	<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="wulan17" revision="staging/10"/>
 </manifest>
