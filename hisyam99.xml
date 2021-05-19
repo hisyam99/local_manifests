@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	<remote name="hisyam99"
+		fetch="https://github.com/hisyam99"
+		 />
+
 	<remote name="wulan17"
 		fetch="https://github.com/wulan17"
 		 />
@@ -8,7 +12,7 @@
 		fetch="https://gitlab.com/wulan17"
 		 />
 	<project path="device/xiaomi/certus" name="android_device_xiaomi_certus" remote="wulan17" revision="staging/10-sepolicy" />
-	<project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="wulan17" revision="staging/10" />
+	<project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="hisyam99" revision="staging/10" />
 	<project path="kernel/xiaomi/mt6765" name="android_kernel_xiaomi_mt6765" remote="wulan17" revision="staging/10-alps" />
 	<project path="prebuilts/gcc/linux-x86/arm/arm-none-linux-gnueabihf-9.2" name="prebuilts_gcc_linux-x86_arm_arm-none-linux-gnueabihf" remote="wulan17-gitlab" revision="9.2" />
 	<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="wulan17" revision="staging/10"/>
